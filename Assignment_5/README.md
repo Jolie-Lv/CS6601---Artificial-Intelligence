@@ -1,12 +1,6 @@
 # Assignment 5 - Expectation Maximization
 
 # Setup
-Clone this repository recursively:
-`git clone --recursive https://github.gatech.edu/omscs6601/assignment_5.git`
-
-(If your version of git does not support recurse clone, then clone without the option and run `git submodule init` and `git submodule update`).
-
-If you run across certificate authentication issues during the clone, set the git SSL Verify option to false: `git config --global http.sslVerify false`.
 
 ## Overview
 
@@ -21,23 +15,6 @@ Your assignment is to implement several methods of image segmentation, with incr
 3) Experiment with varying the details of the Gaussian mixture model’s implementation.
 4) Implement and test a new metric called the Bayesian information criterion, which guarantees a more robust image segmentation.
 
-
-## Grading
-
-The grade you receive for the assignment will be distributed as follows:
-1) k-Means Clustering (19 points)
-2) Gaussian Mixture Model (40 points)
-3) Model Performance Improvements (20 points)
-4) Bayesian Information Criterion (20 points)
-5) Return your name (1 point)
-6) Bonus (+2 points)
-
-
-## Due Date
-The assignment is due November 12th, 2017 at 11:59PM UTC-12 (Anywhere on Earth time). The deliverable for this assignment is a completed mixture_models.py file.
-
-## Submission
-All submissions will be via Bonnie. You will be allowed only 5 submissions on Bonnie. Make sure you test everything before submitting. Please also submit your mixture_models.py to T-square. Important: The Last Submission via Bonnie will be used for the assignment grade.
 
 ## Resources
 
