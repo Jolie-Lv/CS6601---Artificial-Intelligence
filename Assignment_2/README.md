@@ -2,17 +2,11 @@
 
 ## Setup
 
-Clone this repository:
-
-`git clone https://github.gatech.edu/omscs6601/assignment_2.git`
-
 The submission scripts depend on the presence of 3 python packages - `requests`, `future`, and `nelson`. Install them using the command below:
 
 `pip install -r requirements.txt`
 
 Python 2.7 is recommended and has been tested.
-
-Read [setup.md](./setup.md) for more information on how to effectively manage your git repository and troubleshooting information.
 
 ## Overview
 
