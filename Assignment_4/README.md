@@ -1,17 +1,12 @@
 # CS 6601: Artificial Intelligence - Assignment 4 - Decision Trees and Forests
 
 ## Setup
-Clone this repository:
-
-`git clone https://github.gatech.edu/omscs6601/assignment_4.git`
-
 The submission scripts depend on the presence of 3 python packages - `requests`, `future`, and `nelson`. Install them using the command below:
 
 `pip install -r requirements.txt`
 
 Python 2.7 is recommended and has been tested.
 
-Read [setup.md](./setup.md) for more information on how to effectively manage your git repository and troubleshooting information.
 
 ## Overview
 Machine learning offers a number of methods for classifying data into discrete categories, such as k-means clustering. Decision trees provide a structure for such categorization, based on a series of decisions that led to separate distinct outcomes. In this assignment, you will work with decision trees to perform binary classification according to some decision boundary. Your challenge is to build and to train decision trees capable of solving useful classification problems. You will learn first how to build decision trees, then how to effectively train them and finally how to test their performance.
