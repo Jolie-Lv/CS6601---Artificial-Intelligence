@@ -1,9 +1,6 @@
 # CS 6601: Artificial Intelligence - Assignment 6 - Hidden Markov Models
 
 ## Setup
-Clone this repository:
-
-`git clone https://github.gatech.edu/omscs6601/assignment_6.git`
 
 The submission scripts depend on the presence of 3 python packages - `requests`, `future`, and `nelson`. Install them using the command below:
 
@@ -11,13 +8,9 @@ The submission scripts depend on the presence of 3 python packages - `requests`,
 
 Python 2.7 is recommended and has been tested.
 
-Read [setup.md](./setup.md) for more information on how to effectively manage your git repository and troubleshooting information.
-
 ## Overview
 Hidden Markov Models are used extensively in Artificial Intelligence, Pattern Recognition, Computer Vision, and many other computer fields.  If a system has unobservable (hidden) states and each state is independent of the prior, then we can create a model of that system using probability distributions over a sequence of observations.  The idea is that we can provide this system with a series of observations to use to query what is the most likely sequence of states that generated these observations.
 
-### Due Date
-This assignment is due in Bonnie on December 3rd by 11:59PM UTC-12 (Anywhere on Earth). Note that the final exam will be released on December 4th, and the Fall Break is approaching.  However, we have allowed more time than normal for the assignment, to provide the maximum flexibility for scheduling time for preparing for the final and for family obligations. We suggest finishing this assignment quickly so as not to have too many deadlines pressing at the same time.
 
 The deliverables for the assignment are:
 
